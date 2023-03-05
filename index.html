@@ -19,124 +19,64 @@
       <div class="container">
         <div class="weather-app-wrapper">
           <div class="weather-app">
-          <form id="search-form" class="mb-3">
-            <div class="row">
-              <div class="col-9">
-                <input
-                  type="search"
-                  placeholder="Enter a city..."
-                  class="form-control search-input" id="city-input"
-                />
-              </div>
-              <div class="col-3 p-0">
-                <input
-                  type="submit"
-                  class="btn btn-primary w-100"
-                  value="Search" autocomplete="off"
-                />
-              </div>
-            </div>
-          </form>
-          <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-              <li> Last updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="d-flex weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"><a href="#" id="celcius-link" class="active">°C</a>  | <a href="#" id="fahrenheit-link">°F</a></span>
+            <form id="search-form" class="mb-3">
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    type="search"
+                    placeholder="Enter a city..."
+                    class="form-control search-input"
+                    id="city-input"
+                  />
+                </div>
+                <div class="col-3 p-0">
+                  <input
+                    type="submit"
+                    class="btn btn-primary w-100"
+                    value="Search"
+                    autocomplete="off"
+                  />
                 </div>
               </div>
+            </form>
+            <div class="overview">
+              <h1 id="city"></h1>
+              <ul>
+                <li>Last updated: <span id="date"></span></li>
+                <li id="description"></li>
+              </ul>
             </div>
-          <div class="col-6">
-           <ul>
-            <li>Humidity: <span id="humidity"></span>%</li>
-            <li>Wind: <span id="wind"></span>km/h</li>
-           </ul>
+            <div class="row">
+              <div class="col-6">
+                <div class="d-flex weather-temperature">
+                  <img src="" alt="Clear" id="icon" class="float-left" />
+                  <div class="float-left">
+                    <strong id="temperature"></strong
+                    ><span class="units"
+                      ><a href="#" id="celcius-link" class="active">°C</a> |
+                      <a href="#" id="fahrenheit-link">°F</a></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span>km/h</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          </div>
-          <div class="WeatherForecast row">
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Fri</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">29°</span>
-                <span class="forecast-temperature-min">17°</span>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Sat</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">30°</span>
-                <span class="forecast-temperature-min">17°</span>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Sun</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">31°</span>
-                <span class="forecast-temperature-min">18°</span>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Mon</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">31°</span>
-                <span class="forecast-temperature-min">18°</span>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Tue</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">31°</span>
-                <span class="forecast-temperature-min">19°</span>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Wed</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">31°</span>
-                <span class="forecast-temperature-min">18°</span>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="WeatherForecastPreview">
-                <div class="forecast-time">Thu</div>
-                <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">31°</span>
-                <span class="forecast-temperature-min">18°</span>
-              </div>
-              </div>
-            </div>
+          <small
+            ><a
+              href="https://github.com/MbaliPuso/vanilla-weather-app"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Mbali Puso</small
+          >
         </div>
-       </div>
-       <small><a href="https://github.com/MbaliPuso/vanilla-weather-app" target="_blank">Open-source code</a> by Mbali Puso</small>
       </div>
-     </div>
     </div>
     <script src="src/script.js"></script>
   </body>
