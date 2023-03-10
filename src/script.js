@@ -85,4 +85,4 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemp);
 let celciusLink = document.querySelector("#celcius-link");
 celciusLink.addEventListener("click", showCelciusTemp);
 
-search("Pretoria");
+search("Johannesburg");
